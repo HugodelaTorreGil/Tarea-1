@@ -1,0 +1,21 @@
+package Gitej1;
+
+import java.util.Scanner;
+
+public class suma {
+
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Introduce el primer valor");
+	double valor1 = Double.parseDouble(scanner.nextLine());
+	System.out.println("Introduce el segundo valor");
+	double valor2 = Double.parseDouble(scanner.nextLine());
+	
+	double resultado = valor1 + valor2;
+	
+	System.out.println("El resultado es: " + resultado);
+	
+	scanner.close();
+	}
+}
